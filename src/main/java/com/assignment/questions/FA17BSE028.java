@@ -19,11 +19,11 @@ public class FA17BSE028 {
         String url="https://www.facebook.com/";
         driver.get(url);
         WebElement email=driver.findElement(By.id("email"));
-        email.sendKeys("03409646487");
+        email.sendKeys("************");
         sleep(3500);
 
         WebElement password=driver.findElement(By.id("pass"));
-        password.sendKeys("bbm42sj42");
+        password.sendKeys("**********");
         sleep(2500);
 
         WebElement logInButton=driver.findElement(By.id("u_0_b"));
@@ -47,7 +47,7 @@ public class FA17BSE028 {
         String url="https://www.facebook.com/";
         driver.get(url);
         WebElement email=driver.findElement(By.id("email"));
-        email.sendKeys("03409646487");
+        email.sendKeys("*********");
         sleep(3500);
 
         WebElement password=driver.findElement(By.id("pass"));
@@ -78,7 +78,7 @@ public class FA17BSE028 {
         firstName.sendKeys("Saim");
         sleep(3000);
         WebElement lastName=driver.findElement(By.id("u_0_o"));
-        lastName.sendKeys("Tunni");
+        lastName.sendKeys("Hamza");
         sleep(3000);
         WebElement email=driver.findElement(By.id("u_0_r"));
         email.sendKeys("saimjahangir842@gmail.com");
@@ -126,7 +126,7 @@ public class FA17BSE028 {
         firstName.sendKeys("Saim");
         sleep(3000);
         WebElement lastName=driver.findElement(By.id("u_0_o"));
-        lastName.sendKeys("Tunni");
+        lastName.sendKeys("Hamza");
         sleep(3000);
         WebElement email=driver.findElement(By.id("u_0_r"));
         email.sendKeys("saimjahangir842@gmail.com");
